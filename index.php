@@ -1,16 +1,16 @@
-<?php
+<!-- <?php
  
-    $conn = mysqli_connect("localhost", "root", "", "changhidatabase");
-    if(!$conn){
-        die("Connection failed: " . mysqli_connect_error());
-    }
+    // $conn = mysqli_connect("localhost", "root", "Lenghia0108@", "changhidatabase");
+    // if(!$conn){
+    //     die("Connection failed: " . mysqli_connect_error());
+    // }
 
-    $sql = "SELECT * FROM product";
+    // $sql = "SELECT * FROM product";
 
-    $result = mysqli_query($conn, $sql);
+    // $result = mysqli_query($conn, $sql);
 
 
-?>
+?> -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -37,10 +37,10 @@
     <div class="w-full fixed top-0 z-50"><?php include './pages/component/header.php'; ?></div>
     <div class="pt-[140px] px-[180px] relative z-10 font-custom">
         <div class="owl-carousel owl-theme">
-            <img src="/ChangHi/assets/images/products/banner4.jpg" alt="banner" class='w-full rounded-lg h-[500px]'>
-            <img src="/ChangHi/assets/images/products/banner5.jpg" alt="banner" class='w-full rounded-lg h-[500px]'>
-            <img src="/ChangHi/assets/images/products/banner3.jpeg" alt="banner" class='w-full rounded-lg h-[500px]'>
-            <img src="/ChangHi/assets/images/products/banner2.jpg" alt="banner" class='w-full rounded-lg h-[500px]'>
+            <img src="./assets/images/products/banner4.jpg" alt="banner" class='w-full rounded-lg h-[500px]'>
+            <img src="./assets/images/products/banner5.jpg" alt="banner" class='w-full rounded-lg h-[500px]'>
+            <img src="./assets/images/products/banner3.jpeg" alt="banner" class='w-full rounded-lg h-[500px]'>
+            <img src="./assets/images/products/banner2.jpg" alt="banner" class='w-full rounded-lg h-[500px]'>
         </div>
 
         <div>
@@ -48,7 +48,7 @@
         </div>
 
         <div class='bg-gray-100 rounded-md overflow-hidden flex'>
-            <img src="/ChangHi/assets/images/intro.png" alt="" class='w-[500px] h-[500px]'>
+            <img src="./assets/images/intro.png" alt="" class='w-[500px] h-[500px]'>
             <div class='p-4'>
                 <h1 class='text-center font-semibold text-4xl font-custom'>Chè ngon - Sáng tạo</h1>
                 <p class='px-6 mt-8'>
