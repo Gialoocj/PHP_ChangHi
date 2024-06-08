@@ -32,7 +32,9 @@
         </div>
 
         <div class="w-[180px] flex justify-center">
-            <button class="w-[120px] rounded-full bg-yellow-300 font-semibold py-2 hover:cursor-pointer hover:bg-yellow-400 transition-all duration-300 ease-in">Đăng nhập</button>
+            <button class="w-[120px] rounded-full bg-yellow-300 font-semibold py-2 hover:cursor-pointer hover:bg-yellow-400 transition-all duration-300 ease-in">
+                <a href="./pages/login.php" >Đăng nhập</a>
+            </button>
         </div>
     </div>
 </body>
