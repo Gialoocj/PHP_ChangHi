@@ -6,6 +6,12 @@
     <title>Cửa Hàng Chè</title>
     <link rel="stylesheet" href="../assets/css/login.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>
+        button:enabled {
+  background-color: #fde047; /* Enabled button color */
+  color: #000;
+}
+    </style>
 </head>
 <body>
 
@@ -84,7 +90,7 @@ $conn->close();
 <p class="tip">Nhấn vào nút trong khung hình để tiếp tục</p>
 <div class="cont">
     <div class="form sign-in">
-        <h2>Chào mừng trở lại,</h2>
+        <h2>Chào mừng trở lại</h2>
         <form method="post" id="loginForm">
             <input type="hidden" name="action" value="login">
             <label>

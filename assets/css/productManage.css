@@ -1,0 +1,66 @@
+.modal {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+}
+
+.modal.active {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.3s ease, visibility 0s;
+}
+
+/* Hiệu ứng nút */
+.button-transition {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hiệu ứng trượt lên */
+.modal-dialog {
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-out;
+}
+
+.modal.active .modal-dialog {
+  transform: translateY(0);
+}
+
+/* Định dạng màu chủ đạo */
+:root {
+  --primary-color: #ffd700; /* Màu vàng */
+}
+
+/* Active sidebar item */
+.sidebar-item.active {
+  background-color: rgb(74, 85, 104, 0.5); /* Màu nền khi active */
+}
+.sidebar-bg {
+  background-color: transparent;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.sidebar-btn {
+  background-color: #f7d207;
+  color: #60371b;
+}
+
+.sidebar-btn:hover {
+  background-color: #f7d207;
+  color: #60371b;
+}
+
+.menu-item {
+  background-color: #f7d207;
+  color: #60371b;
+}
+
+.btn {
+  background-color: #f7d207;
+  color: #60371b;
+}
+
+.btn:hover {
+  background-color: rgb(247, 210, 7, 0, 0);
+  color: #60371b;
+}

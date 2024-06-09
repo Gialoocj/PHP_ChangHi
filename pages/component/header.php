@@ -20,7 +20,7 @@
 <body>
     <div class="w-full h-[80px] fixed px-[180px] flex justify-between items-center shadow z-90 bg-white">
         <div>
-            <img src="/ChangHi/assets/images/logo.png" alt="Logo" class="w-[80px] h-[80px]"/>
+            <img src="./assets/images/logo.png" alt="Logo" class="w-[80px] h-[80px]"/>
         </div>
         <div class="flex items-center list-none ml-[120px] font-custom">
             <li class="mx-4 font-semibold text-md hover:text-red-800 hover:cursor-pointer">Trang chủ</li>
