@@ -1,3 +1,5 @@
+<!-- search product -->
+
 <?php
 include 'db_connection.php';
 
@@ -25,6 +27,8 @@ if ($result->num_rows > 0) {
 $conn->close();
 ?>
 
+
+<!-- delete product -->
 <?php
 include 'db_connection.php';
 $deleteSuccess = false; // Biến để kiểm tra xem yêu cầu xóa sản phẩm đã được thực hiện thành công hay không
@@ -80,3 +84,5 @@ if($deleteSuccess){
     $deleteSuccess = false; // Đặt lại biến thành false để tránh hiển thị liên tục
 }
 ?>
+
+
